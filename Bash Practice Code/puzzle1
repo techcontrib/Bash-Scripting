@@ -1,0 +1,3 @@
+Place parentheses around first four letters of each line in textfile.txt.
+
+=> ANS:  sed -E 's/[a-Z]{4}/(&)/' textfile.txt 
