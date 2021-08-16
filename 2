@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Is this a good question (y/n)?"
+read ans
+
+if [ "$ans" != "${ans#[Yy]}" ]; then
+	echo "Yes"
+else
+	echo "No"
+fi

@@ -1,0 +1,4 @@
+read -e -p "
+List the content of your home dir ? [Y/n] " YN
+
+[[ $YN == "y" || $YN == "Y" || $YN == "" ]] && ls -la ~/
